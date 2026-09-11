@@ -88,6 +88,5 @@ Before delivering:
 - Can a reader trace every important signal through the architecture?
 - Are online and offline sources unmistakably separated?
 - Does each figure answer a question the text asks?
-- Is each caption intelligible on its own?
 - Are the contributions concrete, and matched by the results?
 - Is the scope narrow enough to survive skeptical review?

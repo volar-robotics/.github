@@ -21,8 +21,7 @@ These mark text as machine-written. None survives review.
 | em-dash `—` | period, comma, colon, or parentheses |
 | antithesis: "X, never Y", "it isn't A, it's B", "not a bug, a feature" | state the claim once |
 | a closing clause restating the sentence before it | delete it |
-| ranking your own content aloud: "three ideas, and the first is the strongest", "the key insight is", "here is the interesting part" | put the important thing first and say nothing about the order |
-| filler openers: "It's worth noting", "Importantly", "Let me", "Here's the thing" | delete them |
+| commentary on your own output: announcing its structure, ranking its parts, or flagging what matters. "It's worth noting", "Importantly", "the key insight is", "the first is the strongest", "Let me", "Here's the thing" | say the thing. Its content and its order carry the emphasis |
 | inflated diction: delve, leverage, seamless, robust, comprehensive, landscape | a plain word |
 | stacked hedges: "might potentially", "could possibly" | one hedge, or none |
 
