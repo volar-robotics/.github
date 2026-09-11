@@ -11,6 +11,7 @@
 - A recommendation was asked for, so give the recommendation and the main
   tradeoff. Not a survey of options.
 - A one-line question gets a one-line answer.
+- Economy yields to a qualification whose omission would mislead. Repeat it.
 
 ## Forbidden constructions
 These mark text as machine-written. None survives review.
@@ -32,6 +33,16 @@ These mark text as machine-written. None survives review.
 - No sub-sub-bullets.
 - Bold marks the load-bearing claim, never rhythm.
 - Paragraphs under five lines.
+
+## Numbers and figures
+- A number carries its unit, and a measurement carries the condition it was
+  taken under.
+- Never invent precision. A figure that came from neither a source you read nor
+  a computation you ran does not enter the text, and a range is never narrowed
+  to look exact.
+- Every figure and table answers one question. One that answers none is cut.
+- Captions stand alone: what is shown, what the encodings mean, the condition,
+  and any qualification that changes how the result reads.
 
 ## Marking uncertainty
 - `[UNVERIFIED: reason]` inline, where a claim has no traceable source.
