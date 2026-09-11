@@ -58,6 +58,19 @@
   datasets, or processed `.npz` files. Say so instead.
 - Never introduce a security vulnerability: injection, XSS, exposed secrets.
 
+## Disclosure
+- Establish whether a destination is public before writing to it. Public means
+  a public repository, the website, a published artifact, a Drive file shared
+  outside the org, and any Slack channel carrying the external-member prefix.
+- Nothing in a public place names a client, counterparty, prospect, funding
+  call applied to, contract term, price, or unreleased product. Examples there
+  take a placeholder. A Volar product that is already published is not a
+  disclosure.
+- A name reaching a public repository is public from that commit, and deleting
+  it later does not unpublish it. The check happens before the commit.
+- An exposure that already happened is reported, never quietly patched. A
+  silent fix leaves the reader believing nothing was published.
+
 ## Edits
 - Never delete content to resolve a conflict. Mark the old claim superseded and
   leave both visible until a human resolves it.
