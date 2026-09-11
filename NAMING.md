@@ -8,11 +8,11 @@
 ## Core
 - **Canonical slug.** One lowercase ASCII slug per program, product, client, and
   platform, reused verbatim on every surface, never abbreviated, expanded, or
-  re-cased: `soar-ndt`, `doordash-air`, `minithex`. The proper-name form
-  (*DoorDash Air*) is for prose and meeting titles only. Retiring or changing a
+  re-cased: `soar-ndt`, `acme-air`, `minithex`. The proper-name form
+  (*Acme Air*) is for prose and meeting titles only. Retiring or changing a
   slug is a `vault/decisions/` entry.
 - **Separator law.** `-` joins words inside a field, `_` joins fields:
-  `2026-09-09_doordash-air_report.pdf`.
+  `2026-09-09_acme-air_report.pdf`.
 - Dates are ISO `YYYY-MM-DD`, and are a field.
 - Date first when the file is one of a recurring series (reports, meetings,
   invoices, digests, runs); topic first otherwise.
@@ -54,7 +54,7 @@ and variables; YAML and JSON keys; environment variables as `SCREAMING_SNAKE`.
   `2026-09-09_slack_invoice_sbie-12598087.pdf`.
 
 ## Wiki vault
-- `<type>_<slug>.md`, where the type is a field: `funding-call_autoassess-oc2.md`.
+- `<type>_<slug>.md`, where the type is a field: `funding-call_acme-oc2.md`.
 - Types, and the only ones: `person · competitor · partner · university ·
   prospect · funding-call · paper · digest · recap-meeting · bom · dataset ·
   brand · company · voucher · pitch · website`.
@@ -65,10 +65,10 @@ and variables; YAML and JSON keys; environment variables as `SCREAMING_SNAKE`.
   field (`paper_cordova-bulens_2023.md`).
 
 ## Meetings
-- Title: `Volar <> DoorDash`, `Volar <> Accounting`. Volar left, counterparty or
+- Title: `Volar <> Acme`, `Volar <> Accounting`. Volar left, counterparty or
   internal function right.
 - `<>` is for calendar titles and channel topics only, never a filename or URL.
-  Derived artifacts drop it: `2026-09-09_volar-doordash_notes.md`.
+  Derived artifacts drop it: `2026-09-09_volar-acme_notes.md`.
 - Invitations another organization created keep their title.
 
 ## Datasets and runs
