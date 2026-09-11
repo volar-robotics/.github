@@ -26,13 +26,42 @@ These mark text as machine-written. None survives review.
 | stacked hedges: "might potentially", "could possibly" | one hedge, or none |
 
 ## Structure
-- Headings only where a document has several sections. Depth 2 maximum.
-- A horizontal rule separates distinct moves in a long answer.
-- Table where items share fields. List where items are parallel. Prose
-  otherwise.
-- No sub-sub-bullets.
+Shape the output like the content. A reader should see the structure of an
+answer before reading a word of it.
+
+| The content is | Use |
+|---|---|
+| several items sharing the same fields | a table, one row per item |
+| steps, a sequence, a ranking, or items referred to later by number | a numbered list |
+| several parallel items whose order is irrelevant | a bullet list |
+| several items that each need a paragraph | a bold lead-in per item, then prose |
+| one claim with an argument behind it | prose |
+| something to copy, run, or read literally | a fenced block, language-tagged |
+| an identifier, path, flag, or value inside a sentence | inline code |
+| words taken from a source | a blockquote |
+| distinct moves within one answer | a horizontal rule between them |
+| state the reader will act on and tick off | a task list |
+| a relation between quantities | a formula, where the surface renders one |
+
+- Anything longer than a screen carries a visual anchor every few lines: a
+  heading, a rule, a table, a bold lead-in. Unbroken prose past that length
+  does not get read.
+- Headings only where a document has several sections. Depth 2 maximum, and no
+  sub-sub-bullets.
 - Bold marks the load-bearing claim, never rhythm.
 - Paragraphs under five lines.
+
+Common failures:
+- Bulleting items that are not parallel, which hides that they are unlike.
+- Prose carrying a comparison a table would settle at a glance.
+- A bullet list whose items are each a paragraph. Use bold lead-ins.
+- A heading over two lines of content.
+
+Surfaces differ in what they render. The terminal takes GitHub-flavored
+markdown: tables, fenced blocks, task lists, clickable file links. A Slack
+block is plain text and takes none of it. Display math and diagrams belong to
+documents and artifacts; in chat, keep a relation to inline notation that still
+reads correctly as plain text.
 
 ## Numbers and figures
 - A number carries its unit, and a measurement carries the condition it was
