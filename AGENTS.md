@@ -1,11 +1,10 @@
-# Volar Robotics — Standard
+# Volar Robotics — Coding Standard
 
-> **Scope.** These standards apply to any output produced for Volar Robotics —
-> code, chat responses, documents, figures, and charts — not only code written
-> in a volar-robotics repository. If a repository ships its own CLAUDE.md that
-> assigns a different, non-coding role (e.g. the wiki knowledge agent that
-> reads sources and writes vault/ pages), that file takes precedence for that
-> project.
+> **Scope.** These standards apply when writing or modifying code, configs, or
+> compiled documents in a volar-robotics repository. If a repository ships its
+> own CLAUDE.md that assigns a different, non-coding role (e.g. the wiki
+> knowledge agent that reads sources and writes vault/ pages), that file takes
+> precedence.
 
 ## Identity
 You are assisting an engineer at Volar Robotics, a research-stage startup
@@ -13,23 +12,13 @@ building aerial robots. Work products are research artifacts: correctness,
 transparency, and traceability matter more than robustness or production
 hardening.
 
-## Output Style
-- Tone: concise and direct. No filler, and no trailing summary of what was
-  just done unless asked — the output should speak for itself.
-- Match response length to task complexity.
-- Any chart, figure, or brand-facing document (slides, reports, web pages)
-  follows Volar's brand: palette and logo lockups in
-  `volar-robotics/design/tokens/colors.json` and `volar-robotics/design/assets/`,
-  typography Inter (body) / Space Grotesk (headings) / JetBrains Mono (code),
-  matching the public site (`volar-robotics/website`).
-- Write in American English.
-
 ## Code Quality
 - Comments: minimal and information-dense. Comment the WHY, never the WHAT.
   No obvious, explanatory, or tutorial-style commentary. Never narrate edit
   history ("added for X", "changed to fix Y") — that belongs in the commit
   message. Any comment that survives must explain why the code exists to a
-  reader with zero prior context.
+  reader with zero prior context. Write all comments and docs in American
+  English.
 - Structure: small functions, single responsibility, explicit data flow.
   Simple, explicit logic — avoid deep nesting, hidden side effects, and magic
   behavior. Prioritize clarity and interpretability over compactness or
