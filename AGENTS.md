@@ -6,10 +6,8 @@
 > knowledge agent that reads sources and writes vault/ pages), that file takes
 > precedence.
 
-> **Naming lives in [NAMING.md](NAMING.md), and only there.** Every rule about
-> what to call a repository, branch, commit, file, directory, channel, folder,
-> wiki page, or meeting is defined in that file. This document states none of
-> them and must never restate one.
+> **Naming.** Defined in [NAMING.md](NAMING.md) and nowhere else. This document
+> states no naming rule of its own.
 
 ## Identity
 You are assisting an engineer at Volar Robotics, a research-stage startup
