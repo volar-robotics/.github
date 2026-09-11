@@ -2,16 +2,16 @@
 
 > **Scope.** Every naming rule at Volar lives here. `AGENTS.md`, repository
 > `CLAUDE.md` files, and personal configuration link here and state no rule of
-> their own — a rule written twice is a bug in the copy outside this file.
+> their own. A rule written twice is a bug in the copy outside this file.
 > Applies to GitHub, Slack, Drive, the wiki, calendars, and local work.
 
 ## Core
-- **Canonical slug** — one lowercase ASCII slug per program, product, client, and
+- **Canonical slug.** One lowercase ASCII slug per program, product, client, and
   platform, reused verbatim on every surface, never abbreviated, expanded, or
   re-cased: `soar-ndt`, `doordash-air`, `minithex`. The proper-name form
   (*DoorDash Air*) is for prose and meeting titles only. Retiring or changing a
   slug is a `vault/decisions/` entry.
-- **Separator law** — `-` joins words inside a field, `_` joins fields:
+- **Separator law.** `-` joins words inside a field, `_` joins fields:
   `2026-09-09_doordash-air_report.pdf`.
 - Dates are ISO `YYYY-MM-DD`, and are a field.
 - Date first when the file is one of a recurring series (reports, meetings,
@@ -22,14 +22,14 @@
 ## snake_case
 Only where a tool requires an identifier: Python and MATLAB modules, functions,
 and variables; YAML and JSON keys; environment variables as `SCREAMING_SNAKE`.
-- Every `.py` and `.m` file — a kebab module cannot be imported.
+- Every `.py` and `.m` file, since a kebab module cannot be imported.
 - A directory only if it contains `__init__.py`; every other directory is kebab.
 
 ## GitHub
 - Repository: `<slug>[-<component>]`, no `volar-` prefix, no verbs. Component
   from `sim | report | paper | web | fw | hw | data`.
 - Branch: `<type>/<kebab-slug>`. `claude/` is reserved for agents; default `main`.
-- Commit and PR title: `<type>(<scope>): <description>` — imperative, lowercase,
+- Commit and PR title: `<type>(<scope>): <description>`, imperative, lowercase,
   no trailing period. Types: `feat | update | fix | lint | chore | refactor`.
   Scope is the primary affected directory.
 - Layout: `src/<package_name>/` with `pyproject.toml` at the root; LaTeX figures
@@ -44,7 +44,7 @@ and variables; YAML and JSON keys; environment variables as `SCREAMING_SNAKE`.
 - Channels another organization created keep the name it gave them.
 
 ## Drive
-- Top-level `NN_function/` folders are frozen (`00_corporate` … `09_data`) — the wiki
+- Top-level `NN_function/` folders are frozen (`00_corporate` … `09_data`). The wiki
   Source Map resolves against them. The numeric prefix is a sort key and the one
   exception to the separator law.
 - Subfolders are the slug.
@@ -54,31 +54,31 @@ and variables; YAML and JSON keys; environment variables as `SCREAMING_SNAKE`.
   `2026-09-09_slack_invoice_sbie-12598087.pdf`.
 
 ## Wiki vault
-- `<type>_<slug>.md` — the type is a field: `funding-call_autoassess-oc2.md`.
+- `<type>_<slug>.md`, where the type is a field: `funding-call_autoassess-oc2.md`.
 - Types, and the only ones: `person · competitor · partner · university ·
   prospect · funding-call · paper · digest · recap-meeting · bom · dataset ·
   brand · company · voucher · pitch · website`.
-- `concepts/`, `decisions/`, `market/`, `legal/`, `products/` take no prefix —
-  the directory is the type — so a single kebab slug.
+- `concepts/`, `decisions/`, `market/`, `legal/`, `products/` take no prefix,
+  because the directory is the type, so a single kebab slug.
 - After the prefix the remainder is one kebab field
   (`bom_minithex-recommended-diff.md`); a trailing date or year stays its own
   field (`paper_cordova-bulens_2023.md`).
 
 ## Meetings
-- Title: `Volar <> DoorDash`, `Volar <> Accounting` — Volar left, counterparty or
+- Title: `Volar <> DoorDash`, `Volar <> Accounting`. Volar left, counterparty or
   internal function right.
 - `<>` is for calendar titles and channel topics only, never a filename or URL.
   Derived artifacts drop it: `2026-09-09_volar-doordash_notes.md`.
 - Invitations another organization created keep their title.
 
 ## Datasets and runs
-`YYYY-MM-DD_<platform>_<what>[_<run>]` — run index zero-padded, present only when
+`YYYY-MM-DD_<platform>_<what>[_<run>]`, run index zero-padded, present only when
 a date carries more than one: `2026-03-25_minithex_imu-calib_02.json`.
 
 ## Adoption
 Correct a name when the file is touched, when it is filed into Drive, or in a
 recorded rename pass. Do not rename where it would break a live external
-reference (a signed contract, a published URL) — note the exception instead.
+reference (a signed contract, a published URL). Note the exception instead.
 
 `scripts/check_naming.py` checks a checkout on demand (filenames, branch, PR title).
 It is not wired into CI. Vendored and upstream trees are exempted per repository
