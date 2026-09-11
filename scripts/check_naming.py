@@ -10,7 +10,8 @@ from pathlib import Path
 # Names mandated by a tool or convention we do not control.
 EXEMPT_FILES = {
     "README.md", "README.txt", "README.adoc", "LICENSE", "NOTICE", "CLAUDE.md",
-    "AGENTS.md", "NAMING.md", "Makefile", "Makefile.am", "Dockerfile",
+    "AGENTS.md", "NAMING.md", "BEHAVIOR.md", "OUTPUT.md", "CODING.md",
+    "Makefile", "Makefile.am", "Dockerfile",
     "CODEOWNERS", "CITATION.cff",
 }
 COMMIT_TYPES = "feat|update|fix|lint|chore|refactor"
