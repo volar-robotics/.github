@@ -80,5 +80,6 @@ Correct a name when the file is touched, when it is filed into Drive, or in a
 recorded rename pass. Do not rename where it would break a live external
 reference (a signed contract, a published URL) — note the exception instead.
 
-Enforced by `scripts/check_naming.py` in CI over filenames, branch, and PR title.
-Vendored and upstream trees are exempted per repository via `.namingignore`.
+`scripts/check_naming.py` checks a checkout on demand (filenames, branch, PR title).
+It is not wired into CI. Vendored and upstream trees are exempted per repository
+via `.namingignore`.
