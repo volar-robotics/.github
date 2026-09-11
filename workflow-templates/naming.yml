@@ -1,6 +1,0 @@
-name: naming
-on: [push, pull_request]
-
-jobs:
-  naming:
-    uses: volar-robotics/.github/.github/workflows/naming.yml@main

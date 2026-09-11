@@ -1,6 +1,0 @@
-{
-  "name": "Naming convention",
-  "description": "Check filenames, branch name, and PR title against NAMING.md.",
-  "iconName": "octicon file-directory",
-  "categories": ["Volar"]
-}
