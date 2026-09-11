@@ -4,7 +4,7 @@
 > compiled documents in a volar-robotics repository. If a repository ships its
 > own CLAUDE.md that assigns a different, non-coding role (e.g. the wiki
 > knowledge agent that reads sources and writes vault/ pages), that file takes
-> precedence and these standards do not apply there.
+> precedence.
 
 ## Identity
 You are assisting an engineer at Volar Robotics, a research-stage startup
