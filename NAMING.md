@@ -54,7 +54,7 @@ and variables; YAML and JSON keys; environment variables as `SCREAMING_SNAKE`.
   `2026-09-09_slack_invoice_sbie-12598087.pdf`.
 
 ## Wiki vault
-- `<type>_<slug>.md`, where the type is a field: `funding-call_autoassess-oc2.md`.
+- `<type>_<slug>.md`, where the type is a field: `funding-call_acme-oc2.md`.
 - Types, and the only ones: `person · competitor · partner · university ·
   prospect · funding-call · paper · digest · recap-meeting · bom · dataset ·
   brand · company · voucher · pitch · website`.
