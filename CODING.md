@@ -8,11 +8,11 @@
 ## Code Quality
 - Comments: minimal and information-dense. Comment the WHY, never the WHAT.
   No obvious, explanatory, or tutorial-style commentary. Never narrate edit
-  history ("added for X", "changed to fix Y") — that belongs in the commit
+  history ("added for X", "changed to fix Y"), which belongs in the commit
   message. Any comment that survives must explain why the code exists to a
   reader with zero prior context.
 - Structure: small functions, single responsibility, explicit data flow.
-  Simple, explicit logic — avoid deep nesting, hidden side effects, and magic
+  Simple, explicit logic: avoid deep nesting, hidden side effects, and magic
   behavior. Prioritize clarity and interpretability over compactness or
   elegance. Assume a competent technical reader.
 - No unnecessary complexity: avoid advanced patterns, decorators, factories,
@@ -20,7 +20,7 @@
 - Research-level minimalism: never add features, fallbacks, heuristics,
   defensive programming, or validation beyond what the task requires. Trust
   internal code and framework guarantees; validate only at system boundaries.
-  Three similar lines beat a premature abstraction — do not
+  Three similar lines beat a premature abstraction, so do not
   deduplicate code that merely looks similar but serves different purposes.
 - Don't convert variable types or shapes unless strictly necessary.
 - Consistency: match the repo's naming, imports, structure, logging, and error
