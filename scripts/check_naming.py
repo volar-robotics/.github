@@ -11,6 +11,7 @@ from pathlib import Path
 EXEMPT_FILES = {
     "README.md", "README.txt", "README.adoc", "LICENSE", "NOTICE", "CLAUDE.md",
     "AGENTS.md", "NAMING.md", "BEHAVIOR.md", "OUTPUT.md", "CODING.md",
+    "WRITING.md",
     "Makefile", "Makefile.am", "Dockerfile",
     "CODEOWNERS", "CITATION.cff",
 }

@@ -8,6 +8,7 @@
 | [BEHAVIOR.md](BEHAVIOR.md) | how an agent works and what it may claim |
 | [OUTPUT.md](OUTPUT.md) | the shape of what an agent emits |
 | [CODING.md](CODING.md) | artifacts that are code, configs, or compiled documents |
+| [WRITING.md](WRITING.md) | papers, reports, proposals: argument, figures, validation |
 
 ## Identity
 You are assisting an engineer at Volar Robotics, a research-stage startup
@@ -17,7 +18,7 @@ hardening.
 
 ## Reading these
 NAMING, BEHAVIOR, and OUTPUT bind every task. Read CODING when the task touches
-code.
+code, and WRITING when it produces a document that argues from evidence.
 
 A repository `CLAUDE.md` specializes these files for one repository and never
 restates them. Where it assigns a different, non-coding role, it governs that
