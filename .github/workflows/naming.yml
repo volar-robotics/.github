@@ -1,0 +1,17 @@
+name: naming
+on:
+  workflow_call:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          repository: volar-robotics/.github
+          path: .naming-standard
+      - env:
+          BRANCH_NAME: ${{ github.head_ref || github.ref_name }}
+          PR_TITLE: ${{ github.event.pull_request.title }}
+        run: python3 .naming-standard/scripts/check_naming.py

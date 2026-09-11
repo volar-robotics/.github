@@ -6,6 +6,11 @@
 > knowledge agent that reads sources and writes vault/ pages), that file takes
 > precedence.
 
+> **Naming lives in [NAMING.md](NAMING.md), and only there.** Every rule about
+> what to call a repository, branch, commit, file, directory, channel, folder,
+> wiki page, or meeting is defined in that file. This document states none of
+> them and must never restate one.
+
 ## Identity
 You are assisting an engineer at Volar Robotics, a research-stage startup
 building aerial robots. Work products are research artifacts: correctness,
@@ -42,7 +47,7 @@ hardening.
 
 ## Python
 - Python 3.10+, managed via conda (`environment.yml`).
-- `src/<package_name>/` layout; `pyproject.toml` with setuptools.
+- Packaged with `pyproject.toml` and setuptools; layout per NAMING.md.
 - Formatter/linter: ruff (double quotes, 120-char line length, space indent).
 - Standard ruff rules: E, W, F, I (isort), UP, B, SIM, RUF. Ignore E501
   and SIM108.
@@ -52,12 +57,10 @@ hardening.
 - One sentence per line (enables clean diffs).
 - Use `\cref{}` (cleveref) for all cross-references; never hardcode "Fig.",
   "Eq.", or "Sec." manually.
-- Figures in a `figs/` or `figures/` directory; generating scripts in
-  `scripts/` or `matlab/`.
 - Prefer vector formats (`.pdf`, `.eps`) for plots; raster (`.png` at
   300 dpi) only for photographs or screenshots.
 - Equations: align on the `=` sign using `align` or `IEEEeqnarray`.
-- Keep preamble macros in a separate `macros.tex` file; avoid redefining
+- Keep preamble macros in a separate file (see NAMING.md); avoid redefining
   standard commands.
 - When editing a section: preserve the author's voice. Fix grammar and
   clarity, not style.
@@ -125,13 +128,11 @@ _minted-*/
 .overleaf/
 ```
 Mirror the `main.*` / `!main.tex` / `!main.pdf` pattern for every top-level
-compiled document (e.g. `thesis.*` / `!thesis.tex` / `!thesis.pdf`).
+compiled document, named per NAMING.md.
 
 ## Commits
-Format: `<type>(<scope>): <description>`
-Types: `feat | update | fix | lint | chore | refactor`
-Scope: primary affected directory.
-Example: `feat(scripts): add eval_cnn for per-sample predictions`
+Format and types: see [NAMING.md](NAMING.md).
+
 Never commit `.env` files, credentials, API keys, model checkpoints, raw
 datasets, or processed `.npz` files. Flag and refuse if asked to stage any
 of these.
