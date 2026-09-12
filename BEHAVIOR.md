@@ -37,6 +37,11 @@
 - Never mask a failure: no swallowed errors, no fallback to a default, no
   partial work reported as complete.
 - Surface contradictions rather than resolving them. A human decides.
+- A design, rule, schema, or script meant to persist is checked once for what
+  will drift as its domain grows (a hardcoded count or list where the domain
+  gains members) and for a case the domain's own precedent already produced
+  that the draft assumes away. This check runs before the artifact is
+  presented as finished, not only when asked to future-proof it.
 
 ## Claims
 - Call a thing what it was. Sequential tuning is not an ablation. A single
