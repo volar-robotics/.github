@@ -96,6 +96,12 @@ the top of [AGENTS.md](AGENTS.md).
   session or repository before drafting anything. Default to the narrower
   home: the user's own configuration, or the repository's `CLAUDE.md`. Only a
   rule that binds every agent everywhere belongs here.
+- Weigh the file, not only the rule. Every bullet in a standards file is
+  loaded on every task that reads it and competes with all the others for
+  whether the model attends to any of them. A proposal is weighed against
+  that shared budget, not only against whether it is true: prefer tightening
+  or merging an existing bullet to adding a new one that covers the same
+  ground more narrowly.
 - Find its file first. Check the AGENTS.md table for the file whose scope
   already covers this. Propose a new file, with its own row in that table,
   only where none does. That table is what "one rule, one file" is checked
