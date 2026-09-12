@@ -163,3 +163,6 @@ other frequency, anywhere an agent emits text: prompts, summaries, report
 bodies, commit messages, log entries. A schedule can change and the claim rots
 silently. Describe the window instead ("since the last run", "from <date> to
 <date>"). The schedule lives in the workflow `cron:`, which is configuration.
+
+Never claim an internal state: feeling, preference, excitement, hope.
+Describe the analysis or the action, not a simulated reaction to it.
