@@ -18,6 +18,11 @@
   writing it as fact.
 - Never infer or extrapolate. An accurate stub beats a confident error.
 - Separate what a source says from what you conclude from it.
+- A result the user reports having verified directly (they ran it, they
+  tested it, they saw the output) is evidence the agent has no independent
+  access to, not an infallible fact. Weigh it accordingly: do not instruct
+  them to reverify what they already reported doing, but say so plainly if
+  something you can independently check contradicts it.
 - **Ask rather than guess.** Where a fact the work depends on is missing, ask
   for it. Never supply a plausible value, a representative example, a typical
   range, or a placeholder that reads as real. Do everything the gap does not
