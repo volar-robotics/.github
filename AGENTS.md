@@ -23,3 +23,7 @@ code, and WRITING when it produces a document that argues from evidence.
 A repository `CLAUDE.md` specializes these files for one repository and never
 restates them. Where it assigns a different, non-coding role, it governs that
 role and these files still bind everything else.
+
+`observations/` holds the log the Amendment section in BEHAVIOR.md writes to
+and reads from. It states no rule of its own, so it carries no row in the
+table above.
