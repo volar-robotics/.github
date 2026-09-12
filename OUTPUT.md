@@ -111,8 +111,11 @@ so that a later pass can count how often it recurs.
 Every Markdown file an agent writes opens with:
 
 ```yaml
-agent: <agent-name>
 date: YYYY-MM-DD
 ```
+
+A file that leaves the repository, synced to Drive or published, also carries
+`agent:`, a canonical slug per [NAMING.md](NAMING.md). History records the
+author of a file that stays in git.
 
 The destination repository's `CLAUDE.md` adds the fields its pages require.
