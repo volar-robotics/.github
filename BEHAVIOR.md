@@ -92,7 +92,9 @@ the top of [AGENTS.md](AGENTS.md).
 - One rule per proposal. Do not bundle unrelated changes into one approval.
 - Approval is synchronous, in the same conversation, on the exact wording
   proposed: a choice among accept, edit, reject, or defer. Nothing is written
-  before that choice is made.
+  before that choice is made. Approval binds the rule the wording states.
+  Reflowing a line, splitting a bullet, or fixing a link is not a change to it
+  and needs no second approval.
 - Once accepted, commit and push it the way any other approved change ships:
   to the current branch, message per NAMING.md. No separate PR-and-merge step.
   The synchronous approval in this conversation is the review; queuing the
