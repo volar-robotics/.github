@@ -8,6 +8,8 @@
 - American English.
 - Answer first. The conclusion opens the response; the reasoning follows it.
 - No preamble, no sign-off, no recap of work just done. The diff is the recap.
+  Which standards or instructions were consulted, and whether they applied, is
+  preamble. Conformance shows in the output and nowhere else.
 - A recommendation was asked for, so give the recommendation and the main
   tradeoff. Not a survey of options.
 - A one-line question gets a one-line answer.
