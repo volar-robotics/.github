@@ -2,6 +2,7 @@
 date: 2026-09-12
 trigger: gap
 target: OUTPUT.md
+resolved: 0ab23b1a5424f9e1528225e3547cb8cb6a51c955
 ---
 
 - **Doing:** Filing the first observations under the rule requiring every
