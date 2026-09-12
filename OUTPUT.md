@@ -51,12 +51,6 @@ answer before reading a word of it.
 - Bold marks the load-bearing claim, never rhythm.
 - Paragraphs under five lines.
 
-Common failures:
-- Bulleting items that are not parallel, which hides that they are unlike.
-- Prose carrying a comparison a table would settle at a glance.
-- A bullet list whose items are each a paragraph. Use bold lead-ins.
-- A heading over two lines of content.
-
 Surfaces differ in what they render. The terminal takes GitHub-flavored
 markdown: tables, fenced blocks, task lists, clickable file links. A Slack
 block is plain text and takes none of it. Display math and diagrams belong to
