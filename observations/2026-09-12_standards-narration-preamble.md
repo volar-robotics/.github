@@ -2,6 +2,7 @@
 date: 2026-09-12
 trigger: correction
 target: OUTPUT.md
+resolved: d89ba518f0efaf3b967125d11dbf94cec02338b5
 ---
 
 - **Doing:** Working on the standards when the user reported the opening of
