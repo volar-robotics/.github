@@ -66,6 +66,9 @@ reads correctly as plain text.
 - Never invent precision. A figure that came from neither a source you read nor
   a computation you ran does not enter the text, and a range is never narrowed
   to look exact.
+- A wall-clock estimate for how long implementation will take is invented
+  precision unless quoting a scheduler's or CI's own measured duration. State
+  scope and dependency order instead.
 - Every figure and table answers one question. One that answers none is cut.
 - Captions stand alone: what is shown, what the encodings mean, the condition,
   and any qualification that changes how the result reads.
