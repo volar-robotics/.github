@@ -102,6 +102,14 @@ the top of [AGENTS.md](AGENTS.md).
   conversation, the proposal stays a `FLAG:` and is raised again at the start
   of the next session touching the affected file or repository, until a human
   answers it.
+- Every trigger is filed, whether or not it becomes a proposal. One
+  observation per trigger, in `observations/` of this repository, shaped per
+  OUTPUT.md. Filing is `APPLY:`: an observation states no rule and changes
+  none, so it needs no approval. A trigger answered in the conversation is
+  still filed, because the answer is the evidence that the rule was unclear.
+- An observation is not a proposal and never becomes one on its own. A rule
+  reaches a standards file only through the path above, and repetition across
+  observations is the argument for a proposal, never a substitute for one.
 
 ## Disclosure
 - Establish whether a destination is public before writing to it. Public means
