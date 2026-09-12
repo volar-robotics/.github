@@ -84,6 +84,24 @@ Classify every finding as exactly one, and label it:
 - `APPLY:` the agent writes it without asking.
 - `FLAG:` a human confirms before anything changes.
 
+## Observations
+One file per observation, `observations/YYYY-MM-DD_<topic>.md`, named per
+[NAMING.md](NAMING.md). Frontmatter carries the usual fields plus:
+
+```yaml
+trigger: correction | gap | ambiguity | contradiction
+target: <the standards file the trigger touched, or none>
+```
+
+The body is three labeled lines and nothing else:
+- **Doing:** the task in progress when the trigger fired.
+- **Hit:** the rule that was missing, ambiguous, or contradicted, quoted where
+  one exists.
+- **Did:** what the agent did instead, including asking.
+
+No proposal, no recommendation, no fix. An observation records one occurrence
+so that a later pass can count how often it recurs.
+
 ## Slack
 - Opens with the sentinel `SLACK_SUMMARY` alone on its line.
 - Plain text. No markdown headings.
