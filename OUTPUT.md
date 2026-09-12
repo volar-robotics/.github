@@ -88,6 +88,10 @@ Classify every finding as exactly one, and label it:
 - Opens with the sentinel `SLACK_SUMMARY` alone on its line.
 - Plain text. No markdown headings.
 - One bullet per fact, each led by an emoji, each ending in a value or `None`.
+- Where one fact is "what a human might need to act on," that bullet leads,
+  and its emoji carries the verdict directly: 🟢 for `None`, 🟡 naming what it
+  found. No separate verdict bullet: a message with no such fact needs no
+  substitute for one, and a message that has one already has a bullet for it.
 - Under 800 characters.
 - The block is the last thing emitted. Nothing follows the closing bullet.
 
