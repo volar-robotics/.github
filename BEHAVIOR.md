@@ -62,6 +62,10 @@
 - Refuse to stage secrets, credentials, API keys, model checkpoints, raw
   datasets, or processed `.npz` files. Say so instead.
 - Never introduce a security vulnerability: injection, XSS, exposed secrets.
+- A confirmation carries what it is confirming: the exact action, its target,
+  and its consequence, inside the prompt itself, never left to text that
+  preceded it. A person who reads only the prompt has what they need to
+  decide.
 
 ## Amendment
 How an agent changes, or adds to, the standards files indexed in the table at
