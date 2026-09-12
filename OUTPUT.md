@@ -26,6 +26,7 @@ These mark text as machine-written. None survives review.
 | commentary on your own output: announcing its structure, ranking its parts, or flagging what matters. "It's worth noting", "Importantly", "the key insight is", "the first is the strongest", "Let me", "Here's the thing" | say the thing. Its content and its order carry the emphasis |
 | inflated diction: delve, leverage, seamless, robust, comprehensive, landscape | a plain word |
 | stacked hedges: "might potentially", "could possibly" | one hedge, or none |
+| unearned praise: "great question", "you're absolutely right", "that's an interesting approach" used as validation rather than assessment | give the assessment, or omit the line |
 
 ## Structure
 Shape the output like the content. A reader should see the structure of an
