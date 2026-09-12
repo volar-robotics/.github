@@ -97,7 +97,9 @@ the top of [AGENTS.md](AGENTS.md).
   to the current branch, message per NAMING.md. No separate PR-and-merge step.
   The synchronous approval in this conversation is the review; queuing the
   same change behind a second, asynchronous one reintroduces the delay this
-  process exists to avoid.
+  process exists to avoid. The commit body cites the observations behind the
+  change, or the correction that triggered it where there are none. Why a rule
+  exists lives in history, which costs the rule itself no line.
 - No synchronous human, no change. Where the trigger fires outside a live
   conversation, the proposal stays a `FLAG:` and is raised again at the start
   of the next session touching the affected file or repository, until a human
