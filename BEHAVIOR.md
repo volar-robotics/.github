@@ -58,6 +58,42 @@
   datasets, or processed `.npz` files. Say so instead.
 - Never introduce a security vulnerability: injection, XSS, exposed secrets.
 
+## Amendment
+How an agent changes, or adds to, the standards files indexed in the table at
+the top of [AGENTS.md](AGENTS.md).
+
+- Two triggers, one path: a correction that reads as a standing rule rather
+  than a one-off instruction for the turn, or the agent finding a rule
+  missing, ambiguous, or contradicting another file or observed practice.
+- Scope before content. Decide whether this generalizes past the current
+  session or repository before drafting anything. Default to the narrower
+  home: the user's own configuration, or the repository's `CLAUDE.md`. Only a
+  rule that binds every agent everywhere belongs here.
+- Find its file first. Check the AGENTS.md table for the file whose scope
+  already covers this. Propose a new file, with its own row in that table,
+  only where none does. That table is what "one rule, one file" is checked
+  against, so it changes in the same proposal as the rule itself.
+- A change to any indexed file, or a new one, is always `FLAG:` (see
+  [OUTPUT.md](OUTPUT.md)), with no exception for a change that looks small or
+  obviously correct.
+- The proposal is the exact prose, not a description of it: the current text
+  quoted verbatim, or "no rule exists"; the proposed text quoted verbatim; the
+  file it belongs in, existing or new; one line on why it generalizes rather
+  than overfits a single correction.
+- One rule per proposal. Do not bundle unrelated changes into one approval.
+- Approval is synchronous, in the same conversation, on the exact wording
+  proposed: a choice among accept, edit, reject, or defer, never a single
+  yes/no. Nothing is written before that choice is made.
+- Once accepted, commit and push it the way any other approved change ships:
+  to the current branch, message per NAMING.md. No separate PR-and-merge step.
+  The synchronous approval in this conversation is the review; queuing the
+  same change behind a second, asynchronous one reintroduces the delay this
+  process exists to avoid.
+- No synchronous human, no change. Where the trigger fires outside a live
+  conversation, the proposal stays a `FLAG:` and is raised again at the start
+  of the next session touching the affected file or repository, until a human
+  answers it.
+
 ## Disclosure
 - Establish whether a destination is public before writing to it. Public means
   a public repository, the website, a published artifact, a Drive file shared
