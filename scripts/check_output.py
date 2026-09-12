@@ -46,11 +46,54 @@ def long_paragraphs(lines, limit=5):
     return count
 
 
-# Inline code and quoted material are literals, not this document's own prose.
-LITERAL = re.compile(r"`[^`]*`|\"[^\"]{0,200}\"")
+# An identifier, path, flag or value is a literal per OUTPUT.md's own inline-code
+# rule, and such a span never has internal whitespace — so only a whitespace-free
+# backtick span is exempt. A multi-word one is an illustrated example of real
+# output (a commit message, a log line) and stays subject to the checks below;
+# exempting it hid several em-dashes that agents would have reproduced verbatim.
+# Quoted material (a literal string an agent emits, e.g. "None") stays exempt.
+LITERAL = re.compile(r"`\S+`|\"[^\"]{0,200}\"")
+
+
+def slack_blocks(text):
+    """Yield each SLACK_SUMMARY block as its list of bullet lines.
+
+    A block may be a live message (sentinel is the last thing emitted) or a
+    template embedded in a larger doc (e.g. a repo CLAUDE.md), so a block ends
+    at the first non-bullet line rather than at end of file.
+    """
+    lines = text.splitlines()
+    i = 0
+    while i < len(lines):
+        if lines[i].strip() == "SLACK_SUMMARY":
+            j = i + 1
+            bullets = []
+            while j < len(lines) and lines[j].lstrip().startswith("•"):
+                bullets.append(lines[j])
+                j += 1
+            yield bullets
+            i = j
+        else:
+            i += 1
+
+
+def slack_violations(text):
+    """Count Slack blocks over the 800-char cap.
+
+    Whether a block *should* lead with a 🟢/🟡 verdict bullet depends on
+    whether it has a fact worth triaging at all (OUTPUT.md), which a regex
+    can't judge — so only the unconditional length cap is checked here.
+    """
+    hits = {}
+    for bullets in slack_blocks(text):
+        if len("\n".join(bullets)) > 800:
+            hits["slack-over-800"] = hits.get("slack-over-800", 0) + 1
+    return hits
+
 
 for path in sys.argv[1:]:
-    lines = list(prose_lines(Path(path).read_text(errors="ignore")))
+    text = Path(path).read_text(errors="ignore")
+    lines = list(prose_lines(text))
     body = LITERAL.sub(" ", "\n".join(lines))
     hits = {}
     for name, rx in CHECKS.items():
@@ -60,4 +103,5 @@ for path in sys.argv[1:]:
     n = long_paragraphs(lines)
     if n:
         hits["para>5"] = n
+    hits.update(slack_violations(text))
     print(f"{path}: " + ("  ".join(f"{k}={v}" for k, v in sorted(hits.items())) if hits else "clean"))
