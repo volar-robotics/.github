@@ -27,8 +27,7 @@
   messages. Reuse existing helpers. Provide one-sentence docstrings for public
   functions and a single-line description at the top of each file.
 - Never leave stubs, placeholder logic, or auto-generated boilerplate in code
-  meant to run. Different sense from BEHAVIOR.md's "accurate stub": an honest
-  gap in a reported result, not unfinished code shipped as if it worked.
+  meant to run.
 
 ## Python
 - Python 3.10+, managed via conda (`environment.yml`).
