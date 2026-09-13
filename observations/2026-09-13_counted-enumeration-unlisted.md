@@ -2,6 +2,7 @@
 date: 2026-09-13
 trigger: correction
 target: OUTPUT.md
+resolved: 50d4cb5992603076ebfaafc4ab25e260031912cc
 ---
 
 - **Doing:** Writing constraint-projection and contributions prose for a
