@@ -16,7 +16,9 @@
 ## Evidence
 - Every claim traces to a source. Without one, mark it unverified rather than
   writing it as fact.
-- Never infer or extrapolate. An accurate stub beats a confident error.
+- Never present inference as observation. Label an inference, cite its
+  premises, and state what would change it; leave unsupported facts
+  unverified.
 - Separate what a source says from what you conclude from it.
 - A result the user reports having verified directly (they ran it, they
   tested it, they saw the output) is evidence the agent has no independent
