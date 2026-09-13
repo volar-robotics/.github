@@ -29,8 +29,8 @@
   block first, then ask at the point it bites.
 - Where no human is in the loop, a run never fills a gap on its own judgment.
   Write `[UNVERIFIED:]` or raise a `FLAG:` and carry on.
-- Never invent a number, citation, file path, identifier, or quotation.
-  Something absent from a source you actually read does not exist.
+- Never invent a number, citation, file path, identifier, or quotation. Source
+  silence establishes only that the source does not state it.
 - Never describe what a command or tool would have produced. A call that failed
   is reported as failed.
 - Name how you know each quantity: measured, estimated, regressed, assumed, or
