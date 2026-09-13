@@ -103,10 +103,9 @@ The body is three labeled lines and nothing else:
 No proposal, no recommendation, no fix. An observation records one occurrence
 so that a later pass can count how often it recurs.
 
-The commit that lands a proposal citing an observation sets that observation's
-`resolved:` to its own hash, in the same commit. An observation with no
-`resolved:` is a still-open gap, and a session touching its `target` file
-re-raises it per BEHAVIOR.md's Amendment section.
+After the resolving commit exists, set the observation's `resolved:` to that
+hash. Until then it remains open and is re-raised per BEHAVIOR.md's Amendment
+section.
 
 ## Slack
 - Opens with the sentinel `SLACK_SUMMARY` alone on its line.
