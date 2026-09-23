@@ -23,7 +23,7 @@ physical or operational motivation → related work grouped by methodological
 category → the capability and the limitation of each category → the precise
 missing combination or unresolved trade-off → the proposed pipeline as the
 consequence of that gap → contributions as concrete technical objects or
-demonstrated outcomes.
+demonstrated outcomes → a roadmap of the sections that follow.
 
 - Related work is described by what each method achieves and from which
   information. The citation carries the attribution; authors are not the
