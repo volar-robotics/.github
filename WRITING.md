@@ -25,7 +25,8 @@ missing combination or unresolved trade-off → the proposed pipeline as the
 consequence of that gap → contributions as concrete technical objects or
 demonstrated outcomes.
 
-- Assumptions appear before the method they delimit.
+- Assumptions appear before the method they delimit, each as a numbered,
+  named statement that later text cites by number wherever it relies on it.
 - Notation and conventions are fixed before they become ambiguous.
 - Components appear in dependency order, and are evaluated individually before
   the integrated system.
