@@ -53,7 +53,9 @@ either appears: prose, figure, caption, table.
   quantity is named with its kind: indentation depth, tilt angle, opening
   angle.
 - An equation is introduced with its purpose and interpreted afterwards in
-  operational terms. An equation left to speak for itself says nothing.
+  operational terms. It is punctuated as part of its sentence, each new symbol
+  is defined with its frame right after it, and every equation the text refers
+  back to is numbered. An equation left to speak for itself says nothing.
 - "however", "conversely", "unlike" and "therefore" mark a real trade-off or a
   real logical consequence. Elsewhere they are cut.
 
