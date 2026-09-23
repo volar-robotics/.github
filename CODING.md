@@ -39,8 +39,9 @@
 
 ## LaTeX
 - One sentence per line (enables clean diffs).
-- Use `\cref{}` (cleveref) for all cross-references; never hardcode "Fig.",
-  "Eq.", or "Sec." manually.
+- Use `\cref{}` (cleveref) for cross-references, and `\Cref{}` at the start
+  of a sentence, where the name is spelled out; never hardcode "Fig.",
+  "Figure", "Eq.", or "Sec." manually.
 - Prefer vector formats (`.pdf`, `.eps`) for plots; raster (`.png` at
   300 dpi) only for photographs or screenshots.
 - Equations: align on the `=` sign using `align` or `IEEEeqnarray`.
