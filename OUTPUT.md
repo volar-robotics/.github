@@ -71,7 +71,8 @@ reads correctly as plain text.
   scope and dependency order instead.
 - Every figure and table answers one question. One that answers none is cut.
 - Captions stand alone: what is shown, what the encodings mean, the condition,
-  and any qualification that changes how the result reads.
+  and any qualification that changes how the result reads. A table caption may
+  be a title where its headers and table notes carry the rest.
 
 ## Marking uncertainty
 - `[UNVERIFIED: reason]` inline, where a claim has no traceable source.
