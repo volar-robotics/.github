@@ -84,7 +84,9 @@ Before delivering:
 - Is every claim carried by an equation, a citation, a result, or a marked
   inference?
 - Are assumptions and limitations visible before the reader needs them?
-- Are frames, symbols, dimensions, and units consistent throughout?
+- Are frames, symbols, dimensions, and units consistent throughout, with every
+  compound unit written as a product of powers, such as `N s m^-1` or
+  `Nm rad^-1`?
 - Can a reader trace every important signal through the architecture?
 - Are online and offline sources unmistakably separated?
 - Does each figure answer a question the text asks?
