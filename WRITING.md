@@ -25,6 +25,9 @@ missing combination or unresolved trade-off → the proposed pipeline as the
 consequence of that gap → contributions as concrete technical objects or
 demonstrated outcomes.
 
+- Related work is described by what each method achieves and from which
+  information. The citation carries the attribution; authors are not the
+  grammatical subject.
 - Assumptions appear before the method they delimit, each as a numbered,
   named statement that later text cites by number wherever it relies on it.
 - Notation and conventions are fixed before they become ambiguous.
