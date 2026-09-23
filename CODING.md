@@ -39,9 +39,10 @@
 
 ## LaTeX
 - One sentence per line (enables clean diffs).
-- Use `\cref{}` (cleveref) for cross-references, and `\Cref{}` at the start
-  of a sentence, where the name is spelled out; never hardcode "Fig.",
-  "Figure", "Eq.", or "Sec." manually.
+- Use `\cref{}` (cleveref) for cross-references and `\Cref{}` at the start of
+  a sentence, with `\crefname`/`\Crefname` set to the venue's style (IEEE:
+  "Fig." everywhere, "Equation" only at sentence start, bare "(1)" in text);
+  never hardcode "Fig.", "Figure", "Eq.", or "Sec." manually.
 - Units: `\qty{value}{unit}` from siunitx, built from unit macros so that
   compound units print as products of powers:
   `\qty{2}{\newton\meter\per\radian}`.
