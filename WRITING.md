@@ -30,7 +30,10 @@ demonstrated outcomes → a roadmap of the sections that follow.
   grammatical subject.
 - Assumptions appear before the method they delimit, each as a numbered,
   named statement that later text cites by number wherever it relies on it.
-- Notation and conventions are fixed before they become ambiguous.
+- Notation and conventions are fixed before they become ambiguous: one
+  paragraph names every frame and the rule for which frame a vector is
+  expressed in, and each decoration (hat, tilde, star) carries one declared
+  meaning.
 - Components appear in dependency order, and are evaluated individually before
   the integrated system.
 - Novelty names the exact combination, capability, or demonstrated integration
