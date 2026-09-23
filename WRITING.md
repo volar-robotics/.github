@@ -82,7 +82,9 @@ A staircase, in this order:
 3. A baseline, ground truth, or independent reference.
 4. Computational or real-time feasibility, where it bears on the claim.
 5. The complete system in its intended task.
-6. A harder or shifted-condition case, where one is available.
+6. A harder or shifted-condition case, where one is available, with every
+   condition that differs from the training or calibration domain listed and
+   none credited as a cause unless it was isolated.
 7. What each experiment does and does not establish.
 
 Interpret results against the requirements settled before writing. Explain why
