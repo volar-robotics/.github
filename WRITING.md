@@ -46,7 +46,9 @@ either appears: prose, figure, caption, table.
 ## Prose
 - A paragraph runs: statement or requirement, justification, consequence,
   transition to the next design element.
-- Terms are defined before use.
+- Terms are defined before use. One concept keeps one term throughout, and a
+  quantity is named with its kind: indentation depth, tilt angle, opening
+  angle.
 - An equation is introduced with its purpose and interpreted afterwards in
   operational terms. An equation left to speak for itself says nothing.
 - "however", "conversely", "unlike" and "therefore" mark a real trade-off or a
