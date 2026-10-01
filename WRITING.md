@@ -7,7 +7,8 @@
 ## Before writing
 Settle these, in order, before the first section:
 
-1. What the task requires.
+1. What the task requires: the author's goal, the reader's goal (what they
+   must decide, and how fast), and the constraints of the venue or format.
 2. What information is available.
 3. What is unavailable, unobservable, or impractical.
 4. Which assumptions delimit the problem.
