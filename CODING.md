@@ -7,10 +7,14 @@
 
 ## Code Quality
 - Comments: minimal and information-dense. Comment the WHY, never the WHAT.
-  No obvious, explanatory, or tutorial-style commentary. Never narrate edit
-  history ("added for X", "changed to fix Y"), which belongs in the commit
-  message. Any comment that survives must explain why the code exists to a
-  reader with zero prior context.
+  No obvious, explanatory, or tutorial-style commentary. Any comment that
+  survives must explain why the code exists to a reader with zero prior
+  context.
+- Comments, docstrings, READMEs, and other in-repository docs describe the
+  current state, in general terms. Never narrate edit history, the discussion
+  behind a change, or how the design evolved ("added for X", "changed to fix
+  Y", "was X, now Y"): history is read from git and belongs in the commit
+  message.
 - Structure: small functions, single responsibility, explicit data flow.
   Simple, explicit logic: avoid deep nesting, hidden side effects, and magic
   behavior. Prioritize clarity and interpretability over compactness or
