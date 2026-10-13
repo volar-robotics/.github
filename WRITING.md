@@ -47,8 +47,10 @@ representation it is expressed, how it is transformed, and where it is
 consumed. A reader must be able to trace any signal end to end through the
 architecture.
 
-Online and offline information sources are separated unmistakably, wherever
-either appears: prose, figure, caption, table.
+Where a quantity could be mistaken for one available at run time (ground
+truth, an offline calibration or identification, a fixed parameter set), say
+once which it is. Do not annotate paths or captions that no reader would
+misread.
 
 ## Prose
 - A paragraph runs: statement or requirement, justification, consequence,
@@ -65,8 +67,8 @@ either appears: prose, figure, caption, table.
 
 ## Figures
 - An architecture figure for the complete pipeline appears early.
-- Flow diagrams distinguish command, measurement, physical and offline paths
-  visibly.
+- Flow diagrams distinguish command, measurement and physical paths visibly,
+  and offline paths where the diagram has any.
 - Tables carry exact mappings, design ledgers, parameters, conditions, and
   quantitative comparisons.
 - Procedures get sequential panels. Related signals get aligned multi-panel
@@ -102,7 +104,8 @@ Before delivering:
   compound unit written as a product of powers, such as `N s m^-1` or
   `Nm rad^-1`?
 - Can a reader trace every important signal through the architecture?
-- Are online and offline sources unmistakably separated?
+- Is any quantity a reader could mistake for a run-time signal marked as
+  offline or ground truth?
 - Does each figure answer a question the text asks?
 - Are the contributions concrete, and matched by the results?
 - Is the scope narrow enough to survive skeptical review?
