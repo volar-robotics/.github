@@ -61,7 +61,10 @@ misread.
 - An equation is introduced with its purpose and interpreted afterwards in
   operational terms. It is punctuated as part of its sentence, each new symbol
   is defined with its frame right after it, and every equation the text refers
-  back to is numbered. An equation left to speak for itself says nothing.
+  back to is numbered. A definition takes `=` when its sentence already marks
+  it ("let", "where", "is"); `:=` is kept for one displayed beside a relation
+  it could be mistaken for, such as an inequality. An equation left to speak
+  for itself says nothing.
 - "however", "conversely", "unlike" and "therefore" mark a real trade-off or a
   real logical consequence. Elsewhere they are cut.
 
