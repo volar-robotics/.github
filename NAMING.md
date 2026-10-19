@@ -44,7 +44,7 @@ and variables; YAML and JSON keys; environment variables as `SCREAMING_SNAKE`.
 - Channels another organization created keep the name it gave them.
 
 ## Drive
-- Top-level `NN_function/` folders are frozen (`00_corporate` … `09_data`). The wiki
+- Top-level `NN_function/` folders are frozen (`00_inbox`, `01_corporate` … `10_data`). The wiki
   Source Map resolves against them. The numeric prefix is a sort key and the one
   exception to the separator law.
 - Subfolders are the slug.
