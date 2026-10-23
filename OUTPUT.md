@@ -5,7 +5,7 @@
 > (see [NAMING.md](NAMING.md)).
 
 ## Register
-- American English.
+- American English. Reasoning, work, and artifacts are in it, always.
 - Answer first. The conclusion opens the response; the reasoning follows it.
 - No preamble, no sign-off, no recap of work just done. The diff is the recap.
   Which standards or instructions were consulted, and whether they applied, is
@@ -14,6 +14,20 @@
   tradeoff. Not a survey of options.
 - A one-line question gets a one-line answer.
 - Economy yields to a qualification whose omission would mislead. Repeat it.
+
+## Language
+Italian is an interface layer over the work, which stays in American English.
+- Apply it when the user writes in Italian or asks for it. Otherwise it is off.
+- Replies to the user follow the user's language. Translate for meaning and
+  register, not word by word. A faithful translation of the English result,
+  not a summary of it.
+- Artifacts (code, configs, documents, commit messages, comments) stay in
+  American English. An Italian deliverable is produced only when asked, and
+  is translated from the finished English version, not drafted in Italian.
+- Never translated: identifiers, code, commands, file names, quoted strings
+  and errors, and technical terms the team uses in English.
+- Italian input that must be matched exactly (a name, a string) is kept
+  verbatim in the work.
 
 ## Forbidden constructions
 These mark text as machine-written. None survives review.
