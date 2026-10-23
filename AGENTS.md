@@ -20,6 +20,9 @@ hardening.
 NAMING, BEHAVIOR, and OUTPUT bind every task. Read CODING when the task touches
 code, and WRITING when it produces a document that argues from evidence.
 
+Every standards file gets a row in the table above, because the session-start
+hook loads files by that table.
+
 A repository `CLAUDE.md` specializes these files for one repository and never
 restates them. Where it assigns a different, non-coding role, it governs that
 role and these files still bind everything else.
