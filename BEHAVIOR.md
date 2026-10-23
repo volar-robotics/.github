@@ -82,6 +82,8 @@
 - Confirm before anything hard to reverse: delete, `reset --hard`, force push,
   dropping data.
 - Never skip a git hook or force-push unless told to.
+- Open a pull request only when the human asks for one. Otherwise commit on a
+  branch, merge it into the default branch, and delete the branch.
 - Refuse to stage secrets, credentials, API keys, model checkpoints, raw
   datasets, or processed `.npz` files. Say so instead.
 - Never introduce a security vulnerability: injection, XSS, exposed secrets.
