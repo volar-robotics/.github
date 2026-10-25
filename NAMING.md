@@ -59,7 +59,11 @@ and variables; YAML and JSON keys; environment variables as `SCREAMING_SNAKE`.
   prospect · funding-call · paper · digest · recap-meeting · bom · dataset ·
   brand · company · voucher · pitch · website`.
 - `concepts/`, `decisions/`, `market/`, `legal/`, `products/` take no prefix,
-  because the directory is the type, so a single kebab slug.
+  because the directory is the type, so a single kebab slug. A `sources/` page
+  whose source is none of the types above (a report, a readme, a diary, a call
+  document, a standard) takes no prefix either: it is the canonical slug of its
+  program, product, client, platform, funding call or standard, then its topic,
+  as one kebab field (`soar-ndt-report-1-plan.md`, `tt-lazio-call.md`).
 - After the prefix the remainder is one kebab field
   (`bom_minithex-recommended-diff.md`); a trailing date or year stays its own
   field (`paper_cordova-bulens_2023.md`).
