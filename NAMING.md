@@ -1,7 +1,7 @@
 # Volar Robotics — Naming Convention
 
-> **Scope.** Every naming rule at Volar lives here. `AGENTS.md`, repository
-> `CLAUDE.md` files, and personal configuration link here and state no rule of
+> **Scope.** Every naming rule at Volar lives here. The org and repository
+> `AGENTS.md` files, and personal configuration, link here and state no rule of
 > their own. A rule written twice is a bug in the copy outside this file.
 > Applies to GitHub, Slack, Drive, the wiki, calendars, and local work.
 

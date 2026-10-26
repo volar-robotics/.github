@@ -29,9 +29,10 @@ code, and WRITING when it produces a document that argues from evidence.
 Every standards file gets a row in the table above, because the session-start
 hook loads files by that table.
 
-A repository `CLAUDE.md` specializes these files for one repository and never
+A repository `AGENTS.md` specializes these files for one repository and never
 restates them. Where it assigns a different, non-coding role, it governs that
-role and these files still bind everything else.
+role and these files still bind everything else. No repository keeps a
+`CLAUDE.md`: Claude Code ignores `AGENTS.md` wherever one exists.
 
 `observations/` holds the log the Amendment section in BEHAVIOR.md writes to
 and reads from. It states no rule of its own, so it carries no row in the

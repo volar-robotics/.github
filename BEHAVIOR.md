@@ -101,7 +101,7 @@ the top of [AGENTS.md](AGENTS.md).
   missing, ambiguous, or contradicting another file or observed practice.
 - Scope before content. Decide whether this generalizes past the current
   session or repository before drafting anything. Default to the narrower
-  home: the user's own configuration, or the repository's `CLAUDE.md`. Only a
+  home: the user's own configuration, or the repository's `AGENTS.md`. Only a
   rule that binds every agent everywhere belongs here.
 - Weigh the file, not only the rule. Every bullet in a standards file is
   loaded on every task that reads it and competes with all the others for

@@ -144,4 +144,4 @@ A file that leaves the repository, synced to Drive or published, also carries
 `agent:`, a canonical slug per [NAMING.md](NAMING.md). History records the
 author of a file that stays in git.
 
-The destination repository's `CLAUDE.md` adds the fields its pages require.
+The destination repository's `AGENTS.md` adds the fields its pages require.

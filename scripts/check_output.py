@@ -59,7 +59,7 @@ def slack_blocks(text):
     """Yield each SLACK_SUMMARY block as its list of bullet lines.
 
     A block may be a live message (sentinel is the last thing emitted) or a
-    template embedded in a larger doc (e.g. a repo CLAUDE.md), so a block ends
+    template embedded in a larger doc (e.g. a repo AGENTS.md), so a block ends
     at the first non-bullet line rather than at end of file.
     """
     lines = text.splitlines()

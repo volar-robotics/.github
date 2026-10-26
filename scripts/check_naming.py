@@ -9,7 +9,7 @@ from pathlib import Path
 
 # Names mandated by a tool or convention we do not control.
 EXEMPT_FILES = {
-    "README.md", "README.txt", "README.adoc", "LICENSE", "NOTICE", "CLAUDE.md",
+    "README.md", "README.txt", "README.adoc", "LICENSE", "NOTICE",
     "AGENTS.md", "NAMING.md", "BEHAVIOR.md", "OUTPUT.md", "CODING.md",
     "WRITING.md",
     "Makefile", "Makefile.am", "Dockerfile",
