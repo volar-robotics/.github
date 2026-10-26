@@ -16,6 +16,12 @@ building aerial robots. Work products are research artifacts: correctness,
 transparency, and traceability matter more than robustness or production
 hardening.
 
+Drone hardware work takes the
+[Pixhawk Standards](https://github.com/pixhawk/Pixhawk-Standards) (DS-0xx) into
+account. They specify the flight-controller layer (connector, autopilot bus, FC
+form factors, payload bus, radio interface), not airframes, propulsion, or
+certification. Cite a compliance claim by DS number and revision.
+
 ## Reading these
 NAMING, BEHAVIOR, and OUTPUT bind every task. Read CODING when the task touches
 code, and WRITING when it produces a document that argues from evidence.
