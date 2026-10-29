@@ -2,6 +2,7 @@
 date: 2026-10-29
 trigger: gap
 target: BEHAVIOR.md
+resolved: 643a727
 ---
 
 - **Doing:** setting up OpenVINS in minithex "according to our last soar-ndt
