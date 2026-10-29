@@ -2,6 +2,7 @@
 date: 2026-10-29
 trigger: correction
 target: WRITING.md
+resolved: 462739b
 ---
 
 - **Doing:** auditing the acme-air Phase 1 report for how it states
