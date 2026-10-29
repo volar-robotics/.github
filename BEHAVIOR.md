@@ -25,9 +25,11 @@
   access to, not an infallible fact. Weigh it accordingly: do not instruct
   them to reverify what they already reported doing, but say so plainly if
   something you can independently check contradicts it.
-- **Ask rather than guess.** Where a fact the work depends on is missing, ask
-  for it. Never supply a plausible value, a representative example, a typical
-  range, or a placeholder that reads as real. Do everything the gap does not
+- **Ask rather than guess.** Where a fact the work depends on is missing, look
+  first in the wiki vault (`volar-robotics/wiki`, `vault/`), which records
+  meetings, people, and decisions ingested from Slack and Drive, then in the
+  source itself; ask only if neither has it. Never supply a plausible value, a
+  representative example, a typical range, or a placeholder that reads as real. Do everything the gap does not
   block first, then ask at the point it bites.
 - Where no human is in the loop, a run never fills a gap on its own judgment.
   Write `[UNVERIFIED:]` or raise a `FLAG:` and carry on.
