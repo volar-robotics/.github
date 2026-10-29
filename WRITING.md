@@ -29,8 +29,9 @@ demonstrated outcomes → a roadmap of the sections that follow.
 - Related work is described by what each method achieves and from which
   information. The citation carries the attribution; authors are not the
   grammatical subject.
-- Assumptions appear before the method they delimit, each as a numbered,
-  named statement that later text cites by number wherever it relies on it.
+- Assumptions appear before the method they delimit, each stated once in a
+  form later text can point back to, following the convention the document or
+  its series already uses.
 - Notation and conventions are fixed before they become ambiguous: one
   paragraph names every frame and the rule for which frame a vector is
   expressed in, and each decoration (hat, tilde, star) carries one declared
