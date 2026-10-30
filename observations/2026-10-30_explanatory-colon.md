@@ -2,6 +2,7 @@
 date: 2026-10-30
 trigger: correction
 target: OUTPUT.md
+resolved: f712e24
 ---
 
 - **Doing:** rewriting a report introduction under the new Prose section of
