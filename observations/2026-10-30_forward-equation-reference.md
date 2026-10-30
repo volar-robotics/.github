@@ -2,6 +2,7 @@
 date: 2026-10-30
 trigger: correction
 target: WRITING.md
+resolved: e318664
 ---
 
 - **Doing:** rewriting the vehicle-dynamics section of a report under the new
