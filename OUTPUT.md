@@ -37,10 +37,30 @@ These mark text as machine-written. None survives review.
 | em-dash `—` | recast with a period, comma, colon, or parentheses. Keep the dash only where all four read worse, which is rare. A second one in the same document is a tic, not a need. Literal format strings and titles are typography, not prose, and are exempt |
 | antithesis: "X, never Y", "it isn't A, it's B", "not a bug, a feature" | state the claim once |
 | a closing clause restating the sentence before it | delete it |
-| commentary on your own output: announcing its structure, ranking its parts, or flagging what matters. "It's worth noting", "Importantly", "the key insight is", "the first is the strongest", "Let me", "Here's the thing", "Two things matter. First… Second…" | say the thing. Its content and its order carry the emphasis |
+| commentary on your own output: ranking its parts or flagging what matters. "It's worth noting", "Importantly", "the key insight is", "the first is the strongest", "Let me", "Here's the thing", "Two things matter. First… Second…" | say the thing. Its content and its order carry the emphasis. In a document, a sentence stating what the next section or derivation establishes ("We now show that the reel law needs no payload mass") is a roadmap and is kept |
 | inflated diction: delve, leverage, seamless, robust, comprehensive, landscape | a plain word |
 | stacked hedges: "might potentially", "could possibly" | one hedge, or none |
 | unearned praise: "great question", "you're absolutely right", "that's an interesting approach" used as validation rather than assessment | give the assessment, or omit the line |
+
+## Prose
+Binds every surface: replies, commit messages, and documents alike.
+- A sentence carries one step. Its subject is the thing the step is about, and
+  its main verb arrives within the first few words. A sentence over about 30
+  words, or one that chains clauses with "while", "which", an elided verb, or a
+  colon list, is split. A qualification that is not itself a step goes in its
+  own sentence or in parentheses. A verb is preferred to its noun form ("we
+  normalize the law" over "normalization of the law").
+- Economy removes words that carry nothing, never steps of reasoning. A step
+  the reader would have to reconstruct is written out, even where it lengthens
+  the text.
+- Active voice, first person: "I" for what the agent did in a reply, "we" in a
+  document. Each step of a derivation or argument names its operation, its
+  input, and its result, cause before effect: "since f is continuous, we let
+  s → a in (2.7) to obtain (2.8)". A plain, slightly conversational turn ("This
+  way", "The proof works because") is welcome where it carries the reader from
+  one step to the next.
+- A term is defined before use and followed by its plain reading: "the stretch
+  ν = |r_s| is the local ratio of deformed to reference length".
 
 ## Structure
 Shape the output like the content. A reader should see the structure of an

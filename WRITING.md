@@ -40,6 +40,9 @@ demonstrated outcomes → a roadmap of the sections that follow.
   the integrated system.
 - Novelty names the exact combination, capability, or demonstrated integration
   that is new. A vague claim of novelty is not a claim.
+- A modeling restriction is justified by what it excludes: state what the more
+  general form would permit and why that is wrong or irrelevant here ("were N
+  to depend on r, translating the string would change its material").
 - Limitations and future extensions are stated, not implied.
 
 ## Interfaces
@@ -56,9 +59,9 @@ misread.
 ## Prose
 - A paragraph runs: statement or requirement, justification, consequence,
   transition to the next design element.
-- Terms are defined before use. One concept keeps one term throughout, and a
-  quantity is named with its kind: indentation depth, tilt angle, opening
-  angle.
+- One concept keeps one term throughout, and a quantity is named with its
+  kind: indentation depth, tilt angle, opening angle. The defining occurrence
+  of a term is set in italics.
 - An equation is introduced with its purpose and interpreted afterwards in
   operational terms. It is punctuated as part of its sentence, each new symbol
   is defined with its frame right after it, and every equation the text refers
