@@ -5,7 +5,7 @@ target: WRITING.md
 resolved: 070a7bf
 ---
 
-- **Doing:** Notation pass on the acme-air phase 1 report.
+- **Doing:** Notation pass on a client report.
 - **Hit:** No rule governs `:=`. Reading "each new symbol is defined with its
   frame right after it" as a call to mark every definition, the agent wrote
   `\coloneq` on 29 definitions, most already marked as such by "let", "with",

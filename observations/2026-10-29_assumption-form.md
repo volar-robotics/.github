@@ -5,7 +5,7 @@ target: WRITING.md
 resolved: 462739b
 ---
 
-- **Doing:** auditing the acme-air Phase 1 report for how it states
+- **Doing:** auditing a client report for how it states
   assumptions, claims, and remarks.
 - **Hit:** "Assumptions appear before the method they delimit, each as a
   numbered, named statement that later text cites by number wherever it relies

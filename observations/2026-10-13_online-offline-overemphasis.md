@@ -6,7 +6,7 @@ resolved: c7006da
 ---
 
 - **Doing:** Writing the control-architecture section and Fig. 7 caption of the
-  acme-air phase 1 report.
+  a client report.
 - **Hit:** "Online and offline information sources are separated unmistakably,
   wherever either appears: prose, figure, caption, table." The user found the
   resulting text dwelt on the online/offline split where nothing depended on it.
