@@ -2,7 +2,7 @@
 date: 2026-09-23
 trigger: gap
 target: WRITING.md
-resolved: 18e651f
+resolved: fb0e5a7
 ---
 
 - **Doing:** Comparing the TRO tactile force/motion paper, designated by the user as the reference for Volar writing, against the standards.

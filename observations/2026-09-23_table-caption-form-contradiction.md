@@ -2,7 +2,7 @@
 date: 2026-09-23
 trigger: contradiction
 target: OUTPUT.md
-resolved: d3c10c6
+resolved: 228c92d
 ---
 
 - **Doing:** Comparing the TRO tactile force/motion paper, designated by the user as the reference for Volar writing, against the standards.

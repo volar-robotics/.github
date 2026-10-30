@@ -2,7 +2,7 @@
 date: 2026-09-13
 trigger: contradiction
 target: BEHAVIOR.md
-resolved: afeb759f7e541dad95f6183e2c4a7a0354c6b51c
+resolved: 42e707d3878e74150d0f22396b037b42a66be668
 ---
 
 - **Doing:** Writing the recommendations of a framework review, each resting

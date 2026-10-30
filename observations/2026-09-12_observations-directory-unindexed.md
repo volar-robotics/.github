@@ -2,7 +2,7 @@
 date: 2026-09-12
 trigger: ambiguity
 target: AGENTS.md
-resolved: 804b53b496ba698a6cb6b15434258dcc70b23099
+resolved: b0c42bd892fabf9a24225d612785a9dfa9a2329a
 ---
 
 - **Doing:** Adding an `observations/` directory to the standards repository

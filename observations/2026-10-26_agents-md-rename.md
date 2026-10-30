@@ -2,7 +2,7 @@
 date: 2026-10-26
 trigger: correction
 target: AGENTS.md
-resolved: d9c6607
+resolved: de6234f
 ---
 
 - **Doing:** adding a `CLAUDE.md` with an `AGENTS.md` symlink to `tt-lazio`, then checking

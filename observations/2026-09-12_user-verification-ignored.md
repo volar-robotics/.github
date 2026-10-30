@@ -2,7 +2,7 @@
 date: 2026-09-12
 trigger: gap
 target: BEHAVIOR.md
-resolved: 99d87ef438a5b099aa264b90a588cce3eba727f7
+resolved: 6bf3ee46edfeb89d43b63227c2befc2c1138d503
 ---
 
 - **Doing:** Same review, specifically an account of an agent instructing a

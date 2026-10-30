@@ -2,7 +2,7 @@
 date: 2026-10-03
 trigger: correction
 target: CODING.md
-resolved: 46c86f4
+resolved: 5790f48
 ---
 
 - **Doing:** Standardizing the minithex repository after a week of sessions

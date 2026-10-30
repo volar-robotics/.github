@@ -2,7 +2,7 @@
 date: 2026-09-23
 trigger: correction
 target: WRITING.md
-resolved: 7f0bc33
+resolved: 16bf1ee
 ---
 
 - **Doing:** Adding units of measurement to the control-gain table of a

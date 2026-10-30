@@ -2,7 +2,7 @@
 date: 2026-09-12
 trigger: gap
 target: BEHAVIOR.md
-resolved: bcb16dc15334bee61de04437835cff158caca015
+resolved: 97dea8ce1853635117911dc7c5b719236060cfc4
 ---
 
 - **Doing:** Same review, specifically the instruction "don't anthropomorphize

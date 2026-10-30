@@ -2,7 +2,7 @@
 date: 2026-09-13
 trigger: correction
 target: BEHAVIOR.md
-resolved: 8751c60
+resolved: 17a2bf9
 ---
 
 - **Doing:** Disabling Co-Authored-By attribution trailers on commits and PRs

@@ -2,7 +2,7 @@
 date: 2026-10-19
 trigger: contradiction
 target: NAMING.md
-resolved: bc5c61d
+resolved: 32d5e8c
 ---
 
 - **Doing:** Building the inbox filing agent for the shared drive's `00_inbox`.

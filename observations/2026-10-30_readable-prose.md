@@ -2,7 +2,7 @@
 date: 2026-10-30
 trigger: correction
 target: OUTPUT.md
-resolved: 9aff7a9
+resolved: 53035c2
 ---
 
 - **Doing:** writing a technical report under WRITING.md.

@@ -2,7 +2,7 @@
 date: 2026-09-12
 trigger: contradiction
 target: CODING.md
-resolved: a55ee44118ccfca3f842d202d43c937098d560fd
+resolved: fbe22795938f74eababb07b7d63df17c190beb7c
 ---
 
 - **Doing:** Reading CODING.md and WRITING.md in a volume-reduction pass over

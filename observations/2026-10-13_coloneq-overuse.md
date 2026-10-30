@@ -2,7 +2,7 @@
 date: 2026-10-13
 trigger: correction
 target: WRITING.md
-resolved: 070a7bf
+resolved: 39010bd
 ---
 
 - **Doing:** Notation pass on a client report.

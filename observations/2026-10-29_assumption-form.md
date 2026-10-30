@@ -2,7 +2,7 @@
 date: 2026-10-29
 trigger: correction
 target: WRITING.md
-resolved: 462739b
+resolved: 9f654aa
 ---
 
 - **Doing:** auditing a client report for how it states

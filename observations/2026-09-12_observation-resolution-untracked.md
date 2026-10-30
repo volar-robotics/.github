@@ -2,7 +2,7 @@
 date: 2026-09-12
 trigger: gap
 target: OUTPUT.md
-resolved: 946906025d57c06c789d2966d76db69973ebde28
+resolved: fb33ea6392fb01a8c3400257152807d0bbeece17
 ---
 
 - **Doing:** Reading the observations directory at the user's request, to

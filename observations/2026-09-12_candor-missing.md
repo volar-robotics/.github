@@ -2,7 +2,7 @@
 date: 2026-09-12
 trigger: gap
 target: BEHAVIOR.md
-resolved: a9f3a2ce6b0a50c2d9cd3b7317dca4adff226940
+resolved: 40cf1bd3fea5397f33acd2d632da7da61d2ec7f7
 ---
 
 - **Doing:** Reviewing an external discussion on agent sycophancy at the

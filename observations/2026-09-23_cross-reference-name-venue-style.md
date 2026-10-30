@@ -2,7 +2,7 @@
 date: 2026-09-23
 trigger: contradiction
 target: CODING.md
-resolved: 84501c4
+resolved: e02f47f
 ---
 
 - **Doing:** Checking the space-saving proposals and cross-reference fixes of

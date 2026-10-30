@@ -2,7 +2,7 @@
 date: 2026-10-13
 trigger: correction
 target: WRITING.md
-resolved: c7006da
+resolved: 5a5ec8c
 ---
 
 - **Doing:** Writing the control-architecture section and Fig. 7 caption of the

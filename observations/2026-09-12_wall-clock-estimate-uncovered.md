@@ -2,7 +2,7 @@
 date: 2026-09-12
 trigger: gap
 target: OUTPUT.md
-resolved: ef1d8cce82536bc365af740acb6afb8a0e67e44c
+resolved: 29c25e331374e643d5d53ca34078773bbb28b724
 ---
 
 - **Doing:** Same review, specifically several accounts of miscalibrated

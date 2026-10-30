@@ -2,7 +2,7 @@
 date: 2026-09-13
 trigger: contradiction
 target: BEHAVIOR.md
-resolved: 93028eed3455315d4b12936149189ad67a02f38d
+resolved: 998aee5c22954b67e0855e178039e8d60d07969c
 ---
 
 - **Doing:** Auditing which company sources the wiki had actually ingested,

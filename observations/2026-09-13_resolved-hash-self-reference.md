@@ -2,7 +2,7 @@
 date: 2026-09-13
 trigger: contradiction
 target: OUTPUT.md
-resolved: 887c1619f4cc5c240c79cb3f5545fbcdd15a0ab4
+resolved: 8e9756318cdf9ac28a6051821a5f87fcfed9a982
 ---
 
 - **Doing:** Filing observations for a set of standards amendments and

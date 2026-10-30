@@ -2,7 +2,7 @@
 date: 2026-09-12
 trigger: gap
 target: BEHAVIOR.md
-resolved: d9a958aa3d37f2660487bf2759876c7482cc7750
+resolved: 49aad1efa62ed77c9c32e97b1496092e5683bca4
 ---
 
 - **Doing:** Reviewing a second external piece, on CLAUDE.md design, at the
