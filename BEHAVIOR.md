@@ -51,6 +51,12 @@
   gains members) and for a case the domain's own precedent already produced
   that the draft assumes away. This check runs before the artifact is
   presented as finished, not only when asked to future-proof it.
+- Design for a problem only on evidence that it occurs: a measurement, an
+  observed failure, or a precedent. Where whether it occurs is unknown, do not
+  solve it in advance: state it as an assumption, name the observation that
+  would show it, and keep a plan B to run if that observation does. Mitigate
+  in advance only where the failure would be unsafe, irreversible, or go
+  unnoticed, and say which.
 
 ## Claims
 - Call a thing what it was. Sequential tuning is not an ablation. A single
