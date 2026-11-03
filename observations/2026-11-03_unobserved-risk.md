@@ -2,6 +2,7 @@
 date: 2026-11-03
 trigger: correction
 target: BEHAVIOR.md
+resolved: 98d5eae
 ---
 
 - **Doing:** simplifying the doordash-air Phase 1 controller, whose static
