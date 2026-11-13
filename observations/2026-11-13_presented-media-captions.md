@@ -2,6 +2,7 @@
 date: 2026-11-13
 trigger: correction
 target: OUTPUT.md
+resolved: aefe9a3
 ---
 
 - **Doing:** composing synced videos of two minithex-4s flights (outside view,
