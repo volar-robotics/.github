@@ -106,7 +106,10 @@ reads correctly as plain text.
 - Every figure and table answers one question. One that answers none is cut.
 - Captions stand alone: what is shown, what the encodings mean, the condition,
   and any qualification that changes how the result reads. A table caption may
-  be a title where its headers and table notes carry the rest.
+  be a title where its headers and table notes carry the rest. Media a person
+  presents, such as a video or a slide, is the exception: it carries only what
+  the viewer needs to read it (labels, units, encodings, the current state) and
+  no narration, because the presenter gives the explanation.
 
 ## Marking uncertainty
 - `[UNVERIFIED: reason]` inline, where a claim has no traceable source.
