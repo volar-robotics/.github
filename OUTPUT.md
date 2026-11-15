@@ -29,6 +29,16 @@ Italian is an interface layer over the work, which stays in American English.
 - Italian input that must be matched exactly (a name, a string) is kept
   verbatim in the work.
 
+Use civil, technically precise language in GUI text, software documentation,
+papers, and public presentations. Replace ‘arming/disarming’ with motor
+enabling/disabling, ‘kill switch’ with emergency motor-stop switch, and
+‘aggressive’ motion with agile, highly dynamic, or aerobatic when accurate.
+Describe an application’s value without ‘killer’ metaphors. Preserve exact
+third-party identifiers, commands, quotations, and published titles where
+fidelity is necessary; use neutral surrounding prose and translate protocol
+values in GUI text. Keep motor enabling, rotation, takeoff, normal disabling,
+and emergency stopping distinct.
+
 ## Forbidden constructions
 These mark text as machine-written. None survives review.
 
