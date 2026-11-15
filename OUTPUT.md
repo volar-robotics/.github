@@ -1,3 +1,7 @@
+---
+date: 2026-11-15
+---
+
 # Volar Robotics — Output Form
 
 > **Scope.** The shape of what an agent emits. Binds every agent on every
