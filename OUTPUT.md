@@ -34,7 +34,9 @@ Italian is an interface layer over the work, which stays in American English.
   verbatim in the work.
 
 Use civil, technically precise language in GUI text, software documentation,
-papers, and public presentations. Replace ‘arming/disarming’ with motor
+papers, and public presentations. Terminology changes must be checked in
+context, preserving physical component names, commands and protocol identifiers.
+No blind find-and-replace. Replace ‘arming/disarming’ with motor
 enabling/disabling, ‘kill switch’ with emergency motor-stop switch, and
 ‘aggressive’ motion with agile, highly dynamic, or aerobatic when accurate.
 Describe an application’s value without ‘killer’ metaphors. Preserve exact
