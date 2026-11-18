@@ -133,7 +133,8 @@ reads correctly as plain text.
   no narration, because the presenter gives the explanation.
 - Media a person presents carries the equations that define the method,
   typeset in LaTeX at the size of the text around it. How many, and how
-  detailed, follows from what its audience can read at a glance.
+  detailed, follows from what its audience can read at a glance. Each equation
+  is followed by a short definition of every symbol its audience cannot guess.
 
 ## Marking uncertainty
 - `[UNVERIFIED: reason]` inline, where a claim has no traceable source.
