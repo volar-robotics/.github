@@ -112,7 +112,10 @@ reads correctly as plain text.
 
 ## Numbers and figures
 - A number carries its unit, and a measurement carries the condition it was
-  taken under.
+  taken under. A result sits at the size of the text around it, beside its
+  comparator and what it leaves open. No surface enlarges a number into a
+  headline or stat callout: a number reports a measurement and shows no
+  quality by itself.
 - Never invent precision. A figure that came from neither a source you read nor
   a computation you ran does not enter the text, and a range is never narrowed
   to look exact.
