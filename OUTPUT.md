@@ -101,7 +101,9 @@ answer before reading a word of it.
   does not get read.
 - Headings only where a document has several sections. Depth 2 maximum, and no
   sub-sub-bullets.
-- Bold marks the load-bearing claim, never rhythm.
+- Bold marks the phrase that carries a paragraph, a bullet or a slide, so a
+  reader scanning dense text lands on it first. At most one bold phrase per
+  paragraph; bold used for rhythm or decoration is cut.
 - Paragraphs under five lines.
 
 Surfaces differ in what they render. The terminal takes GitHub-flavored
