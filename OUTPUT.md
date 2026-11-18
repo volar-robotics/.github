@@ -129,6 +129,9 @@ reads correctly as plain text.
   presents, such as a video or a slide, is the exception: it carries only what
   the viewer needs to read it (labels, units, encodings, the current state) and
   no narration, because the presenter gives the explanation.
+- Media a person presents carries the equations that define the method,
+  typeset in LaTeX at the size of the text around it. How many, and how
+  detailed, follows from what its audience can read at a glance.
 
 ## Marking uncertainty
 - `[UNVERIFIED: reason]` inline, where a claim has no traceable source.
