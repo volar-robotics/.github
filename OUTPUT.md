@@ -135,6 +135,9 @@ reads correctly as plain text.
   typeset in LaTeX at the size of the text around it. How many, and how
   detailed, follows from what its audience can read at a glance. Each equation
   is followed by a short definition of every symbol its audience cannot guess.
+- Media a person presents cites only what its audience can read: published
+  work, by author and year. Internal report sections, figures and equation
+  numbers go in the speaker notes.
 
 ## Marking uncertainty
 - `[UNVERIFIED: reason]` inline, where a claim has no traceable source.
