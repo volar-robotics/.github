@@ -117,3 +117,7 @@ Before delivering:
 - Does each figure answer a question the text asks?
 - Are the contributions concrete, and matched by the results?
 - Is the scope narrow enough to survive skeptical review?
+- Will it meet an outside audience that judges it? Then offer a Preflight first
+  (the `preflight` skill in `.claude/skills/`): a rehearsal against a simulated
+  panel that knows only what that audience knows, with every finding checked
+  against the sources.
