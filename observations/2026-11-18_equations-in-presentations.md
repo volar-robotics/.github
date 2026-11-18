@@ -2,6 +2,7 @@
 date: 2026-11-18
 trigger: gap
 target: OUTPUT.md
+resolved: 0041cc038f0b5ef292ddda5779ccb0c5c0c3f7c7
 ---
 
 - **Doing:** Building the slide deck for the DoorDash Air review with Antonio Franchi.
