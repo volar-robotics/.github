@@ -2,6 +2,7 @@
 date: 2026-11-18
 trigger: gap
 target: WRITING.md
+resolved: 7e7d1e26bab3b96823f2490f73ae9bbff88bb379
 ---
 
 - **Doing:** Reviewing the DoorDash Air deck before a review meeting, by simulating a presenter and an expert audience as separate agents.
