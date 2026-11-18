@@ -2,6 +2,7 @@
 date: 2026-11-18
 trigger: correction
 target: OUTPUT.md
+resolved: cec2944b326622fdcabc5fcfd1f6ccc9ad9c50d8
 ---
 
 - **Doing:** Revising the slide deck for the DoorDash Air review with Antonio Franchi.
