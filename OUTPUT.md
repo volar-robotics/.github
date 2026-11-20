@@ -173,6 +173,16 @@ After the resolving commit exists, set the observation's `resolved:` to that
 hash. Until then it remains open and is re-raised per BEHAVIOR.md's Amendment
 section.
 
+## Meeting notes
+Every Volar meeting's notes, on any surface, take this shape, in this order:
+- Title: `# YYYY-MM-DD <meeting title>`, the title per [NAMING.md](NAMING.md).
+- `**Date:**` the meeting date.
+- `**Attendees:**` every participant, as a Slack mention where they have one.
+- `**Notes:**` one top-level bullet per topic or thread, findings as
+  sub-bullets, open questions prefixed "Open question:".
+- `**Actions**:` one checkbox per action, owners in brackets at the end
+  (`[ ] <action> [@owner]`), sub-actions as nested checkboxes.
+
 ## Slack
 - Opens with the sentinel `SLACK_SUMMARY` alone on its line.
 - Plain text. No markdown headings.
