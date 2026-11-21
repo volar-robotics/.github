@@ -2,6 +2,7 @@
 date: 2026-11-21
 trigger: gap
 target: BEHAVIOR.md
+resolved: e6fde83b76f1f018fb0bd92cbb4c0429200b172a
 ---
 
 - **Doing:** Reviewing technology transfer training for practices that apply across external relationships.
