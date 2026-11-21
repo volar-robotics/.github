@@ -2,6 +2,7 @@
 date: 2026-11-21
 trigger: gap
 target: BEHAVIOR.md
+resolved: 8132cf2
 ---
 
 - **Doing:** Acting on a review of the automation repository's runs: sheet and Drive actions, four code fixes, and triage of 26 mails in review, with independent parts given to subagents.
