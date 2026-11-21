@@ -138,6 +138,9 @@ reads correctly as plain text.
 - Media a person presents cites only what its audience can read: published
   work, by author and year. Internal report sections, figures and equation
   numbers go in the speaker notes.
+- Start Volar Robotics presentations from the current template documented in the
+  [collateral repository’s presentation guide](https://github.com/volar-robotics/collateral/tree/main/presentations),
+  unless the user or venue specifies a different template.
 
 ## Marking uncertainty
 - `[UNVERIFIED: reason]` inline, where a claim has no traceable source.
