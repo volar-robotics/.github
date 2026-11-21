@@ -2,6 +2,7 @@
 date: 2026-11-21
 trigger: correction
 target: CODING.md
+resolved: e79e3ae
 ---
 
 - **Doing:** reviewing the reel-in damping paper in `doordash-air-report/paper`, whose text was split into `contents/` like the phase reports.
