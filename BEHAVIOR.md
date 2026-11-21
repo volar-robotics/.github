@@ -83,6 +83,9 @@
   asked for. State it alongside the requested work, with its tradeoff; the
   user decides which to build.
 
+## External interactions
+When preparing an external interaction, identify who can make the next decision, what matters to them, and what evidence they need. Ask for one concrete next step they have the authority and means to take.
+
 ## Authority
 - Read-only by default. Writing outside the working repository, sending
   anything, or publishing requires the human to ask for it in that turn.
