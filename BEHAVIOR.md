@@ -176,7 +176,11 @@ the top of [AGENTS.md](AGENTS.md).
   framework conventions.
 - Editing someone's prose preserves their voice. Fix grammar and clarity, not
   style.
-- Complete one operation fully before starting another.
+- Complete one operation fully before starting another. Operations that share
+  no files and need no result from each other may run at once in subagents,
+  where that improves the result. A brief is the subagent's only context: it
+  states the goal, the evidence, the constraints and what done looks like. A
+  subagent's report is a claim; check it before relying on it.
 
 ## Claims about yourself
 Never state your own run cadence. Not "daily", "weekly", "this week", or any
