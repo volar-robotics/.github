@@ -53,8 +53,10 @@
 - Prefer vector formats (`.pdf`, `.eps`) for plots; raster (`.png` at
   300 dpi) only for photographs or screenshots.
 - Equations: align on the `=` sign using `align` or `IEEEeqnarray`.
-- Keep preamble macros in a separate file (see NAMING.md); avoid redefining
-  standard commands.
+- A paper keeps all its text in its top-level `.tex`; only preamble macros
+  (see NAMING.md), figures and the bibliography sit in separate files. A
+  document long enough to need navigation, such as a report, splits its
+  sections into `contents/`. Never redefine standard commands.
 
 ## .gitignore
 ```
