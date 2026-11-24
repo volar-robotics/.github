@@ -2,6 +2,7 @@
 date: 2026-11-24
 trigger: gap
 target: NAMING.md
+resolved: 6730d52
 ---
 
 - **Doing:** planning the org's repository structure, where `minithex-guide` uses a component outside the list.

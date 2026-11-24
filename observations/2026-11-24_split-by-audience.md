@@ -2,6 +2,7 @@
 date: 2026-11-24
 trigger: gap
 target: NAMING.md
+resolved: 023baa4
 ---
 
 - **Doing:** planning the org's repository structure; the user proposed splitting `minithex` into `minithex-sim`, `minithex-fw` and further components.
