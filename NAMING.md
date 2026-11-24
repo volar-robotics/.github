@@ -32,7 +32,8 @@ and variables; YAML and JSON keys; environment variables as `SCREAMING_SNAKE`.
   slug's; components sharing a source of truth stay in one. Code that outlives
   one program sits in its platform's or technology's repository. A program, client,
   or funding-call repository depends on it at a pinned version and does not
-  copy it.
+  copy it. A repository serving the whole organization, not one slug, takes the
+  kebab name of its function: `automation`, `design`, `website`.
 - Branch: `<type>/<kebab-slug>`. `claude/` is reserved for agents; default `main`.
 - Commit and PR title: `<type>(<scope>): <description>`, imperative, lowercase,
   no trailing period. Types: `feat | update | fix | lint | chore | refactor`.
