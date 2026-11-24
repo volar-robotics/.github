@@ -27,7 +27,7 @@ and variables; YAML and JSON keys; environment variables as `SCREAMING_SNAKE`.
 
 ## GitHub
 - Repository: `<slug>[-<component>]`, no `volar-` prefix, no verbs. Component
-  from `sim | report | paper | web | fw | hw | data`. Code that outlives one
+  from `sim | report | paper | web | fw | hw | data | docs`. Code that outlives one
   program sits in its platform's or technology's repository. A program, client,
   or funding-call repository depends on it at a pinned version and does not
   copy it.
