@@ -2,6 +2,7 @@
 date: 2026-11-24
 trigger: gap
 target: NAMING.md
+resolved: 27a373c
 ---
 
 - **Doing:** planning the org's repository structure, where the SOAR-Touch soft optical tactile sensors (`soar-touch-sot`) extend past the program that names them.

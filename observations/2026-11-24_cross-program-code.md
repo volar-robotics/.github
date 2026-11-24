@@ -2,6 +2,7 @@
 date: 2026-11-24
 trigger: gap
 target: NAMING.md
+resolved: acd6dfa
 ---
 
 - **Doing:** planning the org's repository structure; `soar-touch-phynt` carries `minithex-cntrl-python-scripts/` and `uavatt-genom3/`, platform code inside a program repository.
