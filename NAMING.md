@@ -27,8 +27,10 @@ and variables; YAML and JSON keys; environment variables as `SCREAMING_SNAKE`.
 
 ## GitHub
 - Repository: `<slug>[-<component>]`, no `volar-` prefix, no verbs. Component
-  from `sim | report | paper | web | fw | hw | data | docs`. Code that outlives one
-  program sits in its platform's or technology's repository. A program, client,
+  from `sim | report | paper | web | fw | hw | data | docs`. A component is its
+  own repository only where its audience, access, or release differs from its
+  slug's; components sharing a source of truth stay in one. Code that outlives
+  one program sits in its platform's or technology's repository. A program, client,
   or funding-call repository depends on it at a pinned version and does not
   copy it.
 - Branch: `<type>/<kebab-slug>`. `claude/` is reserved for agents; default `main`.
