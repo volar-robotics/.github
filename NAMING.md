@@ -6,8 +6,8 @@
 > Applies to GitHub, Slack, Drive, the wiki, calendars, and local work.
 
 ## Core
-- **Canonical slug.** One lowercase ASCII slug per program, product, client, and
-  platform, reused verbatim on every surface, never abbreviated, expanded, or
+- **Canonical slug.** One lowercase ASCII slug per program, product, client,
+  platform, and technology, reused verbatim on every surface, never abbreviated, expanded, or
   re-cased: `soar-ndt`, `acme-air`, `minithex`. The proper-name form
   (*Acme Air*) is for prose and meeting titles only. Retiring or changing a
   slug is a `vault/decisions/` entry.
