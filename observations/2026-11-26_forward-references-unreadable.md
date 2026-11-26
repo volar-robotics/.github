@@ -2,6 +2,7 @@
 date: 2026-11-26
 trigger: correction
 target: WRITING.md
+resolved: 5ab041045e6ce96f8b965d866cc469d4bb555e3b
 ---
 
 - **Doing:** Revising a research paper draft (reel-in damping budget) over many
