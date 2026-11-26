@@ -68,8 +68,10 @@ misread.
   back to is numbered. A definition takes `=` when its sentence already marks
   it ("let", "where", "is"); `:=` is kept for one displayed beside a relation
   it could be mistaken for, such as an inequality. An equation left to speak
-  for itself says nothing. The text cites only equations the reader has
-  already seen, and points to one still to come by its section.
+  for itself says nothing. The text cites only equations, figures, symbols and
+  terms the reader has already seen. It points ahead only by section, and only
+  where the sentence still reads without what lies ahead; otherwise it states
+  the link backward, once both sides are known.
 - "however", "conversely", "unlike" and "therefore" mark a real trade-off or a
   real logical consequence. Elsewhere they are cut.
 
